@@ -1,20 +1,20 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div id="page">
+    <div id="top-half">
+      <img src="/assets/BatSafeU-logo.png" alt="BatSafeU Logo" id="logo" />
+    </div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div id="container">
+      <div id="buttons">
+        <ion-button
+          color="success"
+          class="btn"
+          size="large"
+          (click)="handleLogin()"
+          >Login</ion-button
+        >
+        <ion-button color="tertiary" class="btn" size="large">Guest</ion-button>
+      </div>
+    </div>
   </div>
 </ion-content>

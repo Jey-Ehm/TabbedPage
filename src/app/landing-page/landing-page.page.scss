@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 10vh;
+    background-color: #FF3131;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+ion-tabs {
+    margin-top: 15vh;
+    max-height: 85vh;
+}
+
+#tab-bar {
+    margin-top: 20vh;
+    display: flex;
+    overflow-x: scroll;
+    white-space: wrap;
+    width: 100vw;
+    /* Set the desired width for the tab bar container */
+    height: 25vh;
+}
+
+#tab-bar ion-tab-button {
+    display: inline-block;
+    width: 25vh;
+}
+
+.tabs-inner {
+    max-height: 60vh;
+}
+
+// .button-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 70vh;
+// }
+
+// .round-button {
+//     width: 90vw;
+//     height: 41vh;
+//     border-radius: 50%;
+//     font-size: 50px;
+//     font-family: Inter; 
+//     font-weight: 700;
+//     border: solid 20px #FF3131;
+// }
+
+// .transparent-button {
+//     --background-color: transparent;
+// }
